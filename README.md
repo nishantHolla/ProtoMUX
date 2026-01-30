@@ -1,58 +1,28 @@
 # ProtoMUX
 
-> **Telnet and FTP implementation in Python**  
-> A Computer Networks project demonstrating inter-device communication using socket programming.
+Telnet and FTP implementation in Python. A Computer Networks project demonstrating inter-device communication using socket programming.
 
----
 
-## 👨‍💻 Team Members
+## Team Members
 
 - **Nishant Holla** - PES1UG23CS401  
   [GitHub](https://github.com/nishantHolla)
 - **Pranav Hemanth** - PES1UG23CS433  
   [GitHub](https://github.com/Pranavh-2004)
 
----
 
-## 🚀 Features
+## Features
 
-- 📁 **FTP Mode**  
+- **FTP Mode**  
   Send and receive files between two devices on the same network.
 
-- 💻 **Telnet Mode**  
+- **Telnet Mode**  
   Remote PTY shell access via sockets, emulating a basic Telnet session.
 
-- 🖥️ **Clean Tkinter GUI**  
+- **Clean Tkinter GUI**  
   Select protocol, role, IP address, and file (if applicable) — all in a user-friendly interface.
 
----
-
-## 🛠️ Tech Stack
-
-- Python 3.x
-- `socket`, `os`, `pty`, `tkinter`, `select`, `threading`
-- GUI via `Tkinter` and `ttk`
-
----
-
-## 📁 Project Structure
-
-```bash
-ProtoMUX/
-├── ftp/
-│   ├── __init__.py
-│   ├── ftp_receiver.py
-│   ├── ftp_sender.py
-├── telnet/
-│   ├── __init__.py
-│   ├── telnet_receiver.py
-│   └── telnet_server.py
-├── main_gui.py     # GUI-based entry point
-```
-
----
-
-## 🔧 How to Run
+## How to Run
 
 1. Ensure both devices are connected to the same local network.
 2. Clone this repository on both devices.
